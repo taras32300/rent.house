@@ -1,3 +1,4 @@
+// Логер -  middleware, которые записывает в консоль адрес, статус, метод и дату открытия любой страницы или статического файла в консоль
 import colors from "colors";
 
 export const logger = (req, res, next) => {

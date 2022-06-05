@@ -34,7 +34,7 @@ const productSchema = new mongoose.Schema({
         type: Number,
     },
     square: {
-        type: Number, 
+        type: Number,
         required: true,
     },
     rooms: {

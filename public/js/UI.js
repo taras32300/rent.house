@@ -9,6 +9,6 @@
 })();
 
 const toggleQna = (item) => {
-    
+
     item.classList.toggle('active')
 }
