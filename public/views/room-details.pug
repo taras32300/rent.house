@@ -8,7 +8,7 @@ script(type="text/javascript").
       ol.max-w-2xl.mx-auto.px-4.flex.items-center.space-x-2(role='list' class='sm:px-6 lg:max-w-7xl lg:px-8')
         li
           .flex.items-center
-            a.mr-2.text-sm.font-medium.text-gray-900(href='#')  Квартири 
+            a.mr-2.text-sm.font-medium.text-gray-900(href='#')  Квартиры
             svg.w-4.h-5.text-gray-300(width='16' height='20' viewbox='0 0 16 20' fill='currentColor' xmlns='http://www.w3.org/2000/svg' aria-hidden='true')
               path(d='M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z')
         li
@@ -66,7 +66,7 @@ script(type="text/javascript").
               // Heroicon name: solid/star
               svg.text-gray-200.h-5.w-5.flex-shrink-0(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 20 20' fill='currentColor' aria-hidden='true')
                 path(d='M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z')
-            p.sr-only 4 out of 5 stars
+            p.sr-only 4 из 5 звезд
             a.ml-3.text-sm.font-medium.text-indigo-600(href='#' class='hover:text-indigo-500') 8 успешных продаж
         .mt-10
           .mt-10
@@ -121,7 +121,7 @@ script(type="text/javascript").
                 li.text-gray-400
                   span.text-gray-600 #{item}
               
-            //- button.items-center.inline-block.ml-2.px-2.py-1.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600.mt-6(class='lg:px-2 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500') Від власника
+            //- button.items-center.inline-block.ml-2.px-2.py-1.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600.mt-6(class='lg:px-2 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500') От владельца
             if product.floor
               button.items-center.inline-block.ml-2.px-2.py-1.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600.mt-6(class='lg:px-2 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500') Этаж: #{product.floor}
             button.items-center.inline-block.ml-2.px-2.py-1.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600.mt-6(class='lg:px-2 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500') Площадь: #{product.square}м2
@@ -129,9 +129,9 @@ script(type="text/javascript").
               button.items-center.inline-block.ml-2.px-2.py-1.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600.mt-6(class='lg:px-2 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500') К-во комнат: #{product.rooms}
             button.items-center.inline-block.ml-2.px-2.py-1.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600.mt-6(class='lg:px-2 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500') Отопление: #{product.heating}
             if product.furniture
-              button.items-center.inline-block.ml-2.px-2.py-1.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600.mt-6(class='lg:px-2 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500') Меблювання: Так
+              button.items-center.inline-block.ml-2.px-2.py-1.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600.mt-6(class='lg:px-2 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500') Мебель: Да
             else 
-              button.items-center.inline-block.ml-2.px-2.py-1.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600.mt-6(class='lg:px-2 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500') Мебель: Ні
+              button.items-center.inline-block.ml-2.px-2.py-1.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600.mt-6(class='lg:px-2 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500') Мебель: Нет
             button.items-center.inline-block.ml-2.px-2.py-1.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600.mt-6(class='lg:px-2 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500') Ремонт: #{product.refit}
         .mt-10
           h2.text-sm.font-medium.text-gray-900 Детали
