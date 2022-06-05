@@ -1,0 +1,55 @@
+<style>.qna-item p, .qna-item hr, .qna-item .status-open{display: none}.qna-item.active p, .qna-item.active hr, .qna-item.active .status-open{display: block}.qna-item.active .status-hidden{display: none}</style>
+section.bg-white.qna
+  .container.max-w-4xl.px-6.py-10.mx-auto
+    h1.text-4xl.font-semibold.text-center.text-gray-800 Вопросы и ответы
+    .mt-12.space-y-8
+      .qna-item.border-2.border-gray-100.rounded-lg(onclick="toggleQna(this);" class='dark:border-gray-700')
+        button.flex.items-center.justify-between.w-full.p-8(class="text-gray-700")
+          h1.font-semibold.text-gray-700 Как добавить новое объявление?
+          span.text-gray-400.bg-gray-200.rounded-full.status-open
+            svg.w-6.h-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M18 12H6')
+          span.text-white.bg-purple-500.rounded-full.status-hidden
+            svg.w-6.h-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 6v6m0 0v6m0-6h6m-6 0H6')
+        hr.border-gray-200(class='dark:border-gray-700')
+        p.p-8.text-sm.text-gray-700(class='dark:text-gray-600')
+          | 1) В личном кабинете зайдите в раздел "Мои объявления" и нажмите кнопку "Добавить объявление".2)  Выберите, к какому типу относится ваше объявление – продажа, аренда или посуточная аренда и тип недвижимости – квартиру, комнату, дом, землю, коммерческую недвижимость. 3) Укажите реальную цену и валюту, условная цена в 1грн или тому подобное – не подходит :) 4) Заполните всю имеющуюся информацию о недвижимости. Чем больше данных вы укажете – тем больше рейтинг получит объявление и, соответственно, соберет больше просмотров. 5) Не забывайте о дополнительных параметрах, ведь они важны как для наполнения объявления, так и рейтинга.
+      .qna-item.border-2.border-gray-100.rounded-lg(onclick="toggleQna(this);" class='dark:border-gray-700')
+        button.flex.items-center.justify-between.w-full.p-8(class="text-gray-700")
+          h1.font-semibold.text-gray-700 Как создать эффективное и популярное объявление?
+          span.text-gray-400.bg-gray-200.rounded-full.status-open
+            svg.w-6.h-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M18 12H6')
+          span.text-white.bg-purple-500.rounded-full.status-hidden
+            svg.w-6.h-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 6v6m0 0v6m0-6h6m-6 0H6')
+        hr.border-gray-200(class='dark:border-gray-700')
+        p.p-8.text-sm.text-gray-700(class='dark:text-gray-600')
+          | Добавьте как можно больше информации. Честной и актуальной. Покупатели не любят разочаровываться на просмотрах – проверено многолетним опытом :)
+      .qna-item.border-2.border-gray-100.rounded-lg(onclick="toggleQna(this);" class='dark:border-gray-700')
+        button.flex.items-center.justify-between.w-full.p-8(class="text-gray-700")
+          h1.font-semibold.text-gray-700 Как рассчитывается рейтинг объявлений?
+          span.text-gray-400.bg-gray-200.rounded-full.status-open
+            svg.w-6.h-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M18 12H6')
+          span.text-white.bg-purple-500.rounded-full.status-hidden
+            svg.w-6.h-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 6v6m0 0v6m0-6h6m-6 0H6')
+        hr.border-gray-200(class='dark:border-gray-700')
+        p.p-8.text-sm.text-gray-700(class='dark:text-gray-600')
+          | Качественно заполненные поля при подаче гарантируют высокий базовый рейтинг объявлений. Укажите всю информацию об объекте, которая вам известна.
+      .qna-item.border-2.border-gray-100.rounded-lg(onclick="toggleQna(this);" class='dark:border-gray-700')
+        button.flex.items-center.justify-between.w-full.p-8(class="text-gray-700")
+          h1.font-semibold.text-gray-700 Какие преимущества платных услуг?
+          span.text-gray-400.bg-gray-200.rounded-full.status-open
+            svg.w-6.h-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M18 12H6')
+          span.text-white.bg-purple-500.rounded-full.status-hidden
+            svg.w-6.h-6(xmlns='http://www.w3.org/2000/svg' fill='none' viewbox='0 0 24 24' stroke='currentColor')
+              path(stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 6v6m0 0v6m0-6h6m-6 0H6')
+        hr.border-gray-200(class='dark:border-gray-700')
+        p.p-8.text-sm.text-gray-700(class='dark:text-gray-600')
+          | Возможность поднять свои объявления на любое место в списке по городу. Каждый день на сайте появляются тысячи новых объявлений. Конечно, максимально эффективны объявления, размещенные сверху в списке. Для этого они должны иметь самый большой рейтинг, который можно повысить с помощью услуги «Поднять объявление».
+
+script(src="/js/UI.js")

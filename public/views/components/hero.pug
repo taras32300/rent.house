@@ -1,0 +1,29 @@
+//- section.w-full.bg-white
+//-   .relative.items-center.w-full.px-5.py-12.mx-auto.max-w-7xl(class='md:px-12 lg:px-16 lg:py-24')
+//-     .flex.w-full.mx-auto.text-left
+//-       .relative.inline-flex.items-center.mx-auto.align-middle
+//-         .text-center
+//-           h1.max-w-5xl.text-2xl.font-bold.leading-none.tracking-tighter.text-white-600(class='md:text-5xl lg:text-6xl lg:max-w-7xl')
+//-             | Объявления от собственников 
+//-             br.hidden(class='lg:block')
+//-             |             по всей стране 
+//-           p.max-w-xl.mx-auto.mt-8.text-base.leading-relaxed.text-gray-500
+//-             | Находите наиболее выгодные пропозиции продажа недвижимости от проверенных собственников на нашем сайте  
+//-           .flex.justify-center.w-full.max-w-2xl.gap-2.mx-auto.mt-6
+//-             .mt-3(class='sm:mt-0')
+//-               button.items-center.block.px-5.py-4.text-base.font-medium.text-center.text-white.transition.duration-500.ease-in-out.transform.bg-purple-600(class='lg:px-10 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500' onclick="window.location='/store'") Хочу купити
+//-             .mt-3(class='sm:mt-0 sm:ml-3')
+//-               button.items-center.block.px-5.text-base.font-medium.text-center.text-purple-600.transition.duration-500.ease-in-out.transform.border-2.border-white.shadow-md(class='lg:px-10 py-3.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500' onclick="window.location='/new'") Хочу продати
+section.bg-white.text-gray-700.mb-10.mt-10.pb-10.pt-10  
+  .container.flex.flex-col.justify-center.p-6.mx-auto(class='sm:py-12 lg:py-24 lg:flex-row lg:justify-between')
+    .flex.flex-col.justify-center.p-6.text-center(class='lg:max-w-md xl:max-w-lg lg:text-left')
+      h1.text-5xl.font-bold.leading-none(class='sm:text-6xl')
+        | №1 в Украине сайт для продажи недвижимости 
+        span.text-violet-400 от владельцев
+      p.mt-6.mb-8.text-lg(class='sm:mb-12')
+        | rent.house – самый посещаемый в Украине сайт предложений о продаже и покупке недвижимости от владельцев. Работаем с 2009 года.
+      .flex.flex-col.space-y-4(class='sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start')
+        a.px-8.py-3.text-lg.font-semibold.bg-violet-400.text-gray-900(rel='noopener noreferrer' href='/store') Купить
+        a.px-8.py-3.text-lg.font-semibold.border.border-gray-100(rel='noopener noreferrer' href='/new') Продать
+    .flex.items-center.justify-center.p-6.mt-8(style="")
+      img.object-contain.h-72(src='/img/appartments/thumb_3.jpg' alt='' style="height: 100%; max-height: 560px")
