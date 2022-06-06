@@ -13,7 +13,7 @@ script(type="text/javascript").
               path(d='M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z')
         li
           .flex.items-center
-            a.mr-2.text-sm.font-medium.text-gray-900(href='#')  Продаж 
+            a.mr-2.text-sm.font-medium.text-gray-900(href='#')  Продажа
             svg.w-4.h-5.text-gray-300(width='16' height='20' viewbox='0 0 16 20' fill='currentColor' xmlns='http://www.w3.org/2000/svg' aria-hidden='true')
               path(d='M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z')
         if product.rooms
@@ -106,7 +106,7 @@ script(type="text/javascript").
           if user
             if user.id == product.author
               form(method="delete" action='/delete/'+ product.id)
-                button.mt-10.w-full.bg-red-500.border.border-transparent.py-3.px-8.flex.items-center.justify-center.text-base.font-medium.text-white(type='submit' class='hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500') Видалити
+                button.mt-10.w-full.bg-red-500.border.border-transparent.py-3.px-8.flex.items-center.justify-center.text-base.font-medium.text-white(type='submit' class='hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500') Удалить
       .py-10(class='lg:pt-6 lg:pb-16 lg:col-start-1 lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8')
         // Description and details
         div
